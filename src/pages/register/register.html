@@ -1,0 +1,25 @@
+
+<ion-content style="text-align:center">
+    <ion-icon name="person-add" class="icon"></ion-icon>
+  <ion-grid>
+      <ion-row>
+        <ion-col col-12 class="input"> <ion-input placeholder="User Name" [(ngModel)]="name"></ion-input> </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col col-12 class="input"> <ion-input type="email" placeholder="Email" [(ngModel)]="email"></ion-input> </ion-col>
+        </ion-row>
+      
+        <ion-row>
+            <ion-col col-12 class="input"> <ion-input type="password" placeholder="Password"  [(ngModel)]="pass"></ion-input> </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div style="text-align: center; margin-top: 35px">
+      <p style="color: black" (click)="login()">Already have an account? LogIn</p>
+    </div>
+</ion-content>
+
+<ion-footer style="background-color: #38B6FF">
+
+    <button ion-button full block style="padding: 20px; background-color: #38B6FF ;" (click)="signup()" [disabled]="check()"> <div style="color:rgb(255, 255, 255);"><h3 style="color:white">Sign up</h3></div> </button>
+  
+  </ion-footer>

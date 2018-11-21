@@ -1,0 +1,7 @@
+{
+  "name": "iotlab",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

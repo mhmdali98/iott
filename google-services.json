@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "534010022553",
+    "firebase_url": "https://iotlab-eb0a3.firebaseio.com",
+    "project_id": "iotlab-eb0a3",
+    "storage_bucket": "iotlab-eb0a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534010022553:android:31288ab6ee5617d1",
+        "android_client_info": {
+          "package_name": "com.kareem.iotlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534010022553-op1qlqhd4u8gfmmme8ukvdltl0394i9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgKUQLx0T8wR6N9i6E48KhUAlDQ0PZR-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

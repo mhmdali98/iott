@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar >
+    <ion-title><h3 style="color:white">IoT news</h3></ion-title>
+    <ion-buttons start>
+      <button ion-button icon-only (click)="next()">
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <ion-card *ngFor="let i of brnews">
+    <img [src]="i?.image" style="height: auto; width:100%">
+    <ion-card-content>
+      <ion-card-title>
+        <p style="font-family: 'Segoe UI';font-size: 15px;"><b>{{i?.shortdesc}}</b></p>
+         <button ion-button clear   (click)="detail(i)" style="color:#38B6FF"> More </button>
+      </ion-card-title>
+    </ion-card-content>
+    </ion-card>
+</ion-content>
